@@ -1,6 +1,6 @@
 # Cloud Services - Amazon Lambda Exercise
 
-This repository provides a task for trying one of the AWS services - specifically the [Lambda](https://aws.amazon.com/lambda/) and [Simple Queue Service (SQS)](https://aws.amazon.com/sqs/)
+This repository provides a task for trying mutliple AWS services - specifically the [Lambda](https://aws.amazon.com/lambda/) and [Simple Queue Service (SQS)](https://aws.amazon.com/sqs/)
 
 You will create a lambda function that consumes a message from an SQS queue.
 
