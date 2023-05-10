@@ -21,7 +21,7 @@ It's all fun stuff along your journey to cloud architecture and cloud engineerin
 
 3. Store the code for the sample lambda function within this repository and call it basic_lambda.js (or py if you chose Python)
 
-4. Once you have got the lambda function working from step 1 it is time to make another function but this time the function will be triggered by an SQS message. Following through this guide: https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-example.html
+4. Once you have got the lambda function working from step 2 it is time to make another function but this time the function will be triggered by an SQS message. Follow through this guide: https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-example.html
     - 🗒️ Note: The guide utilises the AWS command line, you will need to get this installed and configured first in order to run the commands mentioned
     - 🗒️ Note: The actual code of the lambda (to consume the message) can be found on [this page](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-create-package.html). I would utilise the Node or Python versions to get started.
 
