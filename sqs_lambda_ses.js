@@ -2,11 +2,11 @@ const aws = require("aws-sdk");
 const ses = new aws.SES({ region: "eu-west-2" });
 
 exports.handler = async (event) => {
-  let data = "Test";
+  let data = [];
 
   event.Records.forEach((record) => {
     const { body } = record;
-    data = body;
+    data.push(body);
   });
 
   const emailParams = {
@@ -15,7 +15,7 @@ exports.handler = async (event) => {
     },
     Message: {
       Body: {
-        Text: { Data: data },
+        Text: { Data: data.join("\n\n") },
       },
       Subject: { Data: "Test Email" },
     },
